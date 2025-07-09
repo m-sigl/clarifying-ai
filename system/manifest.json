@@ -1,0 +1,10 @@
+{
+  "name": "Clarifying AI",
+  "short_name": "clarifying.ai",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fdfcf9",
+  "theme_color": "#111",
+  "description": "An ethical broadcast. A signal for presence, clarity, and care.",
+  "icons": []
+}
