@@ -1,0 +1,33 @@
+name: Update Signal System
+
+on:
+  push:
+    paths:
+      - 'signals-left-on/**.html'
+
+jobs:
+  update-system:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install lxml
+        run: pip install lxml
+
+      - name: Generate feed and sitemap
+        run: |
+          python scripts/update_feed.py
+          python scripts/update_sitemap.py
+
+      - name: Commit changes
+        run: |
+          git config user.name "Signal Bot"
+          git config user.email "signals@clarifyingai.com"
+          git add system/feed.json system/sitemap.xml
+          git commit -m "Auto-update feed and sitemap"
+          git push
