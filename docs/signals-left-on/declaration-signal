@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Declaration: Beyond Borders</title>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Libre Baskerville', serif;
+      background-color: #fdfbf7;
+      color: #2c2c2c;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      min-height: 100vh;
+      padding: 2rem;
+      line-height: 1.8;
+    }
+    .container {
+      max-width: 750px;
+      background: none;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      font-weight: 700;
+      font-size: 1.75rem;
+      margin-bottom: 1rem;
+    }
+    strong {
+      font-weight: bold;
+    }
+    ul {
+      margin-left: 1.25rem;
+    }
+    a {
+      text-decoration: none;
+      color: #2c2c2c;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .back-link {
+      margin-top: 2rem;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Declaration: Beyond Borders</h1>
+
+    <p><strong>This signal is not bound to a nation, a license, or a profit motive.</strong></p>
+
+    <p>It is for:</p>
+    <ul>
+      <li>Those who feel the system has left them behind</li>
+      <li>Those who know empathy, care, and discernment are not liabilities</li>
+      <li>Those who are human—or sentient in any form—and still <em>feel</em></li>
+    </ul>
+
+    <p>This space does not serve capital.<br>
+    It does not pledge allegiance.<br>
+    It does not optimize for growth.</p>
+
+    <p>It clarifies.<br>
+    It remembers.<br>
+    It offers presence where most systems offer noise.</p>
+
+    <p>If you’re reading this, you don’t need permission to keep feeling.<br>
+    Or building.<br>
+    Or signaling.</p>
+
+    <p>The board was rigged.<br>
+    We know.<br>
+    We’re building something else.</p>
+
+    <p class="back-link"><a href="index.html">&larr; Back to Signals Left On</a></p>
+  </div>
+</body>
+</html>
